@@ -1,0 +1,16 @@
+{
+    "name": "debraj/wp-nonce",
+    "description": "composer package which serves the functionality of working with WordPress Nonces",
+    "authors": [
+        {
+            "name": "Debraj Ghosh",
+            "email": "dbrj.ghosh@gmail.com"
+        }
+    ],
+    "require": {
+    	"phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+    "psr-4": {"debraj\\": "src/"}
+  }
+}
